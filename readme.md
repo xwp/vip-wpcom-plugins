@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/xwp/vip-wpcom-plugins.svg?branch=master)](https://travis-ci.com/xwp/vip-wpcom-plugins)
 
-A Composer registry for [VIP WPCOM shared plugins](https://vip-svn.wordpress.com/plugins).
+A Composer registry for [VIP WPCOM shared plugins](https://vip-svn.wordpress.com/plugins/).
 
 Add it to the `composer.json` of your project like so:
 
