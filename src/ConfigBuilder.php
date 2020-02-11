@@ -19,6 +19,7 @@ class ConfigBuilder
 					'package' => [
 						'name' => 'xwp-vip-wpcom-plugins/' . $plugin,
 						'url' => 'https://vip-svn.wordpress.com/plugins',
+						'type' => 'wordpress-plugin',
 						'version' => 'dev-master',
 						'source' => [
 							'url' => 'https://vip-svn.wordpress.com/plugins',
