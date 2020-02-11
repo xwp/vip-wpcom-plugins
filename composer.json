@@ -1,0 +1,38 @@
+{
+    "name": "xwp/wpcom-vip-plugins",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "automattic/vip-wpcom-plugins",
+                "url": "https://vip-svn.wordpress.com/plugins",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://vip-svn.wordpress.com",
+                    "type": "svn",
+                    "reference": "plugins"
+                }
+            }
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "XWP\\WPCOMVIPPlugins\\": "src/"
+        }
+    },
+    "require": {
+        "composer/satis": "^1.0",
+        "automattic/vip-wpcom-plugins": "dev-master"
+    },
+    "scripts": {
+        "build": [
+            "XWP\\WPCOMVIPPlugins\\ConfigBuilder::build",
+            "satis build satis.json public"
+        ]
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
