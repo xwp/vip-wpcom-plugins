@@ -1,7 +1,9 @@
 {
     "name": "xwp/wpcom-vip-plugins",
+    "description": "Composer repository for VIP WPCOM shared plugins",
     "type": "project",
     "license": "MIT",
+    "homepage": "https://xwp.github.io/vip-wpcom-plugins",
     "repositories": [
         {
             "type": "package",
