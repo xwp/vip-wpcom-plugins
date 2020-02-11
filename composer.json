@@ -29,6 +29,9 @@
         "automattic/vip-wpcom-plugins": "dev-master"
     },
     "scripts": {
+        "lint": [
+            "composer validate --no-check-all"
+        ],
         "build": [
             "XWP\\WPCOMVIPPlugins\\ConfigBuilder::build",
             "satis build satis.json public"
