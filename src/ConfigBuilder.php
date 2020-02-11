@@ -13,18 +13,21 @@ class ConfigBuilder
 		$satis_config_file = sprintf('%s/satis.json', dirname( __DIR__ ));
 
 		$repositories = array_map(
-			function ($plugin) {
+			function ($plugin) use ($plugins_dir) {
 				return [
 					'type' => 'package',
 					'package' => [
 						'name' => 'xwp-vip-wpcom-plugins/' . $plugin,
-						'url' => 'https://vip-svn.wordpress.com/plugins',
 						'type' => 'wordpress-plugin',
 						'version' => 'dev-master',
 						'source' => [
 							'url' => 'https://vip-svn.wordpress.com/plugins',
 							'type' => 'svn',
 							'reference' => $plugin,
+						],
+						'dist' => [
+							'url' => sprintf('%s/%s', $plugins_dir, $plugin),
+							'type' => 'path',
 						],
 					],
 				];
@@ -37,6 +40,10 @@ class ConfigBuilder
 			'homepage' => 'https://xwp.github.io/vip-wpcom-plugins',
 			'require-all' => true,
 			'repositories' => $repositories,
+			'archive' => [
+				'directory' => 'dist',
+				'format' => 'zip',
+			],
 		] );
 
 		file_put_contents($satis_config_file, $config);
