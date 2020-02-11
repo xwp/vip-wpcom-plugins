@@ -32,8 +32,8 @@ class ConfigBuilder
 		);
 
 		$config = json_encode( [
-			'name' => 'xwp-vip-wpcom-plugins',
-			'homepage' => 'https://xwp.co',
+			'name' => 'xwp/vip-wpcom-plugins',
+			'homepage' => 'https://xwp.github.io/vip-wpcom-plugins',
 			'require-all' => true,
 			'repositories' => $repositories,
 		] );
