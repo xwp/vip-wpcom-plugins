@@ -14,8 +14,8 @@ class ConfigBuilder
 
 		$repositories = array_map(
 			function ($plugin) use ($plugins_dir) {
-				$plugin_dir_path = sprintf( '%s/%s', $plugins_dir, $plugin );
-				$revisions = self::getDirectorySvnRevisions( $plugin_dir_path );
+				$plugin_dir_path = sprintf('%s/%s', $plugins_dir, $plugin);
+				$revisions = self::getDirectorySvnRevisions($plugin_dir_path);
 				$latestRevision = reset($revisions);
 
 				return [
@@ -31,8 +31,8 @@ class ConfigBuilder
 						],
 						'dist' => [
 							'url' => $plugin_dir_path,
-							'type' => 'file',
-						]
+							'type' => 'path',
+						],
 					],
 				];
 			},
