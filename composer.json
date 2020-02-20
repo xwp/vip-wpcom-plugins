@@ -1,5 +1,5 @@
 {
-    "name": "xwp/wpcom-vip-plugins",
+    "name": "xwp/vip-wpcom-plugins-builder",
     "description": "Composer repository for VIP WPCOM shared plugins",
     "type": "project",
     "license": "MIT",
@@ -33,6 +33,7 @@
             "composer validate --no-check-all"
         ],
         "build": [
+            "rm -rf public/*",
             "XWP\\WPCOMVIPPlugins\\ConfigBuilder::build",
             "satis build satis.json public"
         ]

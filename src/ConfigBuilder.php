@@ -14,6 +14,10 @@ class ConfigBuilder
 
 		$repositories = array_map(
 			function ($plugin) use ($plugins_dir) {
+				$plugin_dir_path = sprintf('%s/%s', $plugins_dir, $plugin);
+				$revisions = self::getDirectorySvnRevisions($plugin_dir_path);
+				$latestRevision = reset($revisions);
+
 				return [
 					'type' => 'package',
 					'package' => [
@@ -23,10 +27,10 @@ class ConfigBuilder
 						'source' => [
 							'url' => 'https://vip-svn.wordpress.com/plugins',
 							'type' => 'svn',
-							'reference' => $plugin,
+							'reference' => sprintf('%s@%s', $plugin, $latestRevision),
 						],
 						'dist' => [
-							'url' => sprintf('%s/%s', $plugins_dir, $plugin),
+							'url' => $plugin_dir_path,
 							'type' => 'path',
 						],
 					],
@@ -53,5 +57,17 @@ class ConfigBuilder
 		$pattern = sprintf('%s/*', rtrim($path, '/\\'));
 
 		return glob($pattern , GLOB_ONLYDIR);
+	}
+
+	protected static function getDirectorySvnRevisions($path) {
+		$logCommand = sprintf('svn log --xml %s', $path);
+		$xml = simplexml_load_string(shell_exec($logCommand));
+		$revisions = [];
+
+		foreach ($xml->logentry as $logentry) {
+			$revisions[] = (int) $logentry->attributes()->revision;
+		}
+
+		return $revisions;
 	}
 }
