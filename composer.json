@@ -33,8 +33,9 @@
             "composer validate --no-check-all"
         ],
         "build": [
+            "rm -rf public/*",
             "XWP\\WPCOMVIPPlugins\\ConfigBuilder::build",
-            "satis build satis.json public"
+            "satis build satis.json public --verbose"
         ]
     },
     "config": {
