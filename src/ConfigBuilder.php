@@ -16,41 +16,34 @@ class ConfigBuilder
 			function ($plugin) use ($plugins_dir) {
 				$plugin_dir_path = sprintf( '%s/%s', $plugins_dir, $plugin );
 				$revisions = self::getDirectorySvnRevisions( $plugin_dir_path );
+				$latestRevision = reset($revisions);
 
-				$packages = array_map(
-					function($revision) use ($plugin) {
-						return [
-							'type' => 'package',
-							'package' => [
-								'name' => 'xwp-vip-wpcom-plugins/' . $plugin,
-								'type' => 'wordpress-plugin',
-								'version' => sprintf('dev-r%s', $revision),
-								'source' => [
-									'url' => 'https://vip-svn.wordpress.com/plugins',
-									'type' => 'svn',
-									'reference' => sprintf('%s@%s', $plugin, $revision),
-								]
-							],
-						];
-					},
-					$revisions
-				);
-
-				return $packages;
+				return [
+					'type' => 'package',
+					'package' => [
+						'name' => 'xwp-vip-wpcom-plugins/' . $plugin,
+						'type' => 'wordpress-plugin',
+						'version' => 'dev-master',
+						'source' => [
+							'url' => 'https://vip-svn.wordpress.com/plugins',
+							'type' => 'svn',
+							'reference' => sprintf('%s@%s', $plugin, $latestRevision),
+						],
+						'dist' => [
+							'url' => $plugin_dir_path,
+							'type' => 'file',
+						]
+					],
+				];
 			},
 			array_map('basename', self::getDirectories($plugins_dir) )
 		);
-		
-		$allRepositories = [];
-		foreach ($repositories as $packageRepos) {
-			$allRepositories = array_merge($allRepositories, $packageRepos);
-		}
 
 		$config = json_encode( [
 			'name' => 'xwp/vip-wpcom-plugins',
 			'homepage' => 'https://xwp.github.io/vip-wpcom-plugins',
 			'require-all' => true,
-			'repositories' => $allRepositories,
+			'repositories' => $repositories,
 			'archive' => [
 				'directory' => 'dist',
 				'format' => 'zip',
