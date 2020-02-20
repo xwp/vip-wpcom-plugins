@@ -36,7 +36,7 @@ class ConfigBuilder
 					],
 				];
 			},
-			array_map('basename', self::getDirectories($plugins_dir) )
+			array_map('basename', self::getDirectories($plugins_dir))
 		);
 
 		$config = json_encode( [
