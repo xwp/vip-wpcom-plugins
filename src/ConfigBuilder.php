@@ -44,7 +44,6 @@ class ConfigBuilder
 			'homepage' => 'https://xwp.github.io/vip-wpcom-plugins',
 			'require-all' => true,
 			'repositories' => $repositories,
-			'providers' => true, // Speed up individual package resolution, maybe.
 			'archive' => [
 				'directory' => 'dist',
 				'format' => 'zip',
