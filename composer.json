@@ -35,7 +35,7 @@
         "build": [
             "rm -rf public/*",
             "XWP\\WPCOMVIPPlugins\\ConfigBuilder::build",
-            "satis build satis.json public --verbose"
+            "satis build satis.json public"
         ]
     },
     "config": {
