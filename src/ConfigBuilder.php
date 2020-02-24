@@ -73,7 +73,7 @@ class ConfigBuilder
 	}
 
 	protected static function getDirectorySvnRevisions($path) {
-		$logCommand = sprintf('svn log --xml %s', $path);
+		$logCommand = sprintf('svn log --stop-on-copy --xml %s', $path);
 		$xml = simplexml_load_string(shell_exec($logCommand));
 		$revisions = [];
 
