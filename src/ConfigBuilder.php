@@ -11,7 +11,7 @@ class ConfigBuilder
 		$vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
 		$plugins_dir = sprintf('%s/automattic/vip-wpcom-plugins', $vendorDir);
 		$satis_config_file = sprintf('%s/satis.json', dirname( __DIR__ ));
-		$satis_config_template_file = sprintf('%s/satis.json', dirname( __DIR__ ));
+		$satis_config_template_file = sprintf('%s/satis.template.json', dirname( __DIR__ ));
 
 		$repositories = array_map(
 			function ($plugin) use ($plugins_dir) {
