@@ -51,7 +51,7 @@ class ConfigBuilder
 
 				return $packages;
 			},
-			array_map('basename', [self::getDirectories($plugins_dir)[0]])
+			array_map('basename', self::getDirectories($plugins_dir))
 		);
 
 		$repositories = [];
