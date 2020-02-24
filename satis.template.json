@@ -1,0 +1,11 @@
+{
+    "name": "VIP WPCOM Shared Plugins",
+    "description": "Composer mirror of the VIP WPCOM shared plugins https://vip-svn.wordpress.com/plugins/",
+    "homepage": "https://xwp.github.io/vip-wpcom-plugins",
+    "require-all": true,
+    "repositories": [],
+    "archive": {
+        "directory": "dist",
+        "format": "zip"
+    }
+}
