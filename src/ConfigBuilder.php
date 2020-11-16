@@ -47,6 +47,7 @@ class ConfigBuilder
 			'archive' => [
 				'directory' => 'dist',
 				'format' => 'zip',
+				'checksum' => false,
 			],
 		] );
 
