@@ -1,0 +1,745 @@
+{
+    "packages": {
+        "xwp-vip-wpcom-plugins/ays-publish": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/ays-publish",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "ays-publish@312885"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/ays-publish/xwp-vip-wpcom-plugins-ays-publish-dev-master-f6c0f5.zip",
+                    "reference": "ays-publish@312885"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/bitly": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/bitly",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "bitly@390009"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/bitly/xwp-vip-wpcom-plugins-bitly-dev-master-9bf7d5.zip",
+                    "reference": "bitly@390009"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/chartbeat": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/chartbeat",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "chartbeat@273940"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/chartbeat/xwp-vip-wpcom-plugins-chartbeat-dev-master-1860d0.zip",
+                    "reference": "chartbeat@273940"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/co-authors-plus-3.4": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/co-authors-plus-3.4",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "co-authors-plus-3.4@386679"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/co-authors-plus-3-4/xwp-vip-wpcom-plugins-co-authors-plus-3-4-dev-master-c82844.zip",
+                    "reference": "co-authors-plus-3.4@386679"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/co-authors-plus": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/co-authors-plus",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "co-authors-plus@368688"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/co-authors-plus/xwp-vip-wpcom-plugins-co-authors-plus-dev-master-2350ea.zip",
+                    "reference": "co-authors-plus@368688"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/co-schedule": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/co-schedule",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "co-schedule@189460"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/co-schedule/xwp-vip-wpcom-plugins-co-schedule-dev-master-1c808e.zip",
+                    "reference": "co-schedule@189460"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/custom-metadata": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/custom-metadata",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "custom-metadata@344003"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/custom-metadata/xwp-vip-wpcom-plugins-custom-metadata-dev-master-b7e079.zip",
+                    "reference": "custom-metadata@344003"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/document-feedback": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/document-feedback",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "document-feedback@399265"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/document-feedback/xwp-vip-wpcom-plugins-document-feedback-dev-master-211392.zip",
+                    "reference": "document-feedback@399265"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/easy-custom-fields": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/easy-custom-fields",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "easy-custom-fields@140272"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/easy-custom-fields/xwp-vip-wpcom-plugins-easy-custom-fields-dev-master-5fb056.zip",
+                    "reference": "easy-custom-fields@140272"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/edit-flow-0.9": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/edit-flow-0.9",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "edit-flow-0.9@362648"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/edit-flow-0-9/xwp-vip-wpcom-plugins-edit-flow-0-9-dev-master-7c6955.zip",
+                    "reference": "edit-flow-0.9@362648"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/edit-flow": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/edit-flow",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "edit-flow@344003"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/edit-flow/xwp-vip-wpcom-plugins-edit-flow-dev-master-593158.zip",
+                    "reference": "edit-flow@344003"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/es-wp-query-0.1.4-beta": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/es-wp-query-0.1.4-beta",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "es-wp-query-0.1.4-beta@384626"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/es-wp-query-0-1-4-beta/xwp-vip-wpcom-plugins-es-wp-query-0-1-4-beta-dev-master-e21353.zip",
+                    "reference": "es-wp-query-0.1.4-beta@384626"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/es-wp-query-0.2.0": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/es-wp-query-0.2.0",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "es-wp-query-0.2.0@384626"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/es-wp-query-0-2-0/xwp-vip-wpcom-plugins-es-wp-query-0-2-0-dev-master-41c467.zip",
+                    "reference": "es-wp-query-0.2.0@384626"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/facebook": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/facebook",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "facebook@277725"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/facebook/xwp-vip-wpcom-plugins-facebook-dev-master-abc782.zip",
+                    "reference": "facebook@277725"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/facebook-instant-articles-3.2": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/facebook-instant-articles-3.2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "facebook-instant-articles-3.2@281510"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/facebook-instant-articles-3-2/xwp-vip-wpcom-plugins-facebook-instant-articles-3-2-dev-master-24b8f9.zip",
+                    "reference": "facebook-instant-articles-3.2@281510"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/facebook-instant-articles-4.0": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/facebook-instant-articles-4.0",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "facebook-instant-articles-4.0@398364"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/facebook-instant-articles-4-0/xwp-vip-wpcom-plugins-facebook-instant-articles-4-0-dev-master-268611.zip",
+                    "reference": "facebook-instant-articles-4.0@398364"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/fieldmanager-1.2": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/fieldmanager-1.2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "fieldmanager-1.2@362575"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/fieldmanager-1-2/xwp-vip-wpcom-plugins-fieldmanager-1-2-dev-master-555117.zip",
+                    "reference": "fieldmanager-1.2@362575"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/fieldmanager": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/fieldmanager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "fieldmanager@240757"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/fieldmanager/xwp-vip-wpcom-plugins-fieldmanager-dev-master-3b45d5.zip",
+                    "reference": "fieldmanager@240757"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/intensedebate": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/intensedebate",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "intensedebate@368819"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/intensedebate/xwp-vip-wpcom-plugins-intensedebate-dev-master-09e858.zip",
+                    "reference": "intensedebate@368819"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/lazy-load-0.7": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/lazy-load-0.7",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "lazy-load-0.7@316261"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/lazy-load-0-7/xwp-vip-wpcom-plugins-lazy-load-0-7-dev-master-79c25b.zip",
+                    "reference": "lazy-load-0.7@316261"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/lazy-load": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/lazy-load",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "lazy-load@316260"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/lazy-load/xwp-vip-wpcom-plugins-lazy-load-dev-master-6b819d.zip",
+                    "reference": "lazy-load@316260"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/lightweight-term-count-update": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/lightweight-term-count-update",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "lightweight-term-count-update@385922"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/lightweight-term-count-update/xwp-vip-wpcom-plugins-lightweight-term-count-update-dev-master-75cb70.zip",
+                    "reference": "lightweight-term-count-update@385922"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/new-device-notification": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/new-device-notification",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "new-device-notification@274788"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/new-device-notification/xwp-vip-wpcom-plugins-new-device-notification-dev-master-025bcb.zip",
+                    "reference": "new-device-notification@274788"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/post-author-box": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/post-author-box",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "post-author-box@84936"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/post-author-box/xwp-vip-wpcom-plugins-post-author-box-dev-master-99af17.zip",
+                    "reference": "post-author-box@84936"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/post-meta-inspector": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/post-meta-inspector",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "post-meta-inspector@197826"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/post-meta-inspector/xwp-vip-wpcom-plugins-post-meta-inspector-dev-master-5e47f0.zip",
+                    "reference": "post-meta-inspector@197826"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/push-syndication-2.1": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/push-syndication-2.1",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "push-syndication-2.1@359947"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/push-syndication-2-1/xwp-vip-wpcom-plugins-push-syndication-2-1-dev-master-41225f.zip",
+                    "reference": "push-syndication-2.1@359947"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/push-syndication": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/push-syndication",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "push-syndication@367867"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/push-syndication/xwp-vip-wpcom-plugins-push-syndication-dev-master-9d1828.zip",
+                    "reference": "push-syndication@367867"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/safe-redirect-manager-1.9": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/safe-redirect-manager-1.9",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "safe-redirect-manager-1.9@388904"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/safe-redirect-manager-1-9/xwp-vip-wpcom-plugins-safe-redirect-manager-1-9-dev-master-24d4ec.zip",
+                    "reference": "safe-redirect-manager-1.9@388904"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/safe-redirect-manager": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/safe-redirect-manager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "safe-redirect-manager@360633"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/safe-redirect-manager/xwp-vip-wpcom-plugins-safe-redirect-manager-dev-master-e85d17.zip",
+                    "reference": "safe-redirect-manager@360633"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/table-of-contents": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/table-of-contents",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "table-of-contents@330162"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/table-of-contents/xwp-vip-wpcom-plugins-table-of-contents-dev-master-b66e52.zip",
+                    "reference": "table-of-contents@330162"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/taxonomy-list-widget": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/taxonomy-list-widget",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "taxonomy-list-widget@369617"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/taxonomy-list-widget/xwp-vip-wpcom-plugins-taxonomy-list-widget-dev-master-f43e0d.zip",
+                    "reference": "taxonomy-list-widget@369617"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/view-all-posts-pages": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/view-all-posts-pages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "view-all-posts-pages@369617"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/view-all-posts-pages/xwp-vip-wpcom-plugins-view-all-posts-pages-dev-master-59abe6.zip",
+                    "reference": "view-all-posts-pages@369617"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/vip-do-not-include-on-wpcom": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/vip-do-not-include-on-wpcom",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "vip-do-not-include-on-wpcom@399267"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/vip-do-not-include-on-wpcom/xwp-vip-wpcom-plugins-vip-do-not-include-on-wpcom-dev-master-436205.zip",
+                    "reference": "vip-do-not-include-on-wpcom@399267"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wp-frontend-uploader": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wp-frontend-uploader",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wp-frontend-uploader@236008"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wp-frontend-uploader/xwp-vip-wpcom-plugins-wp-frontend-uploader-dev-master-619176.zip",
+                    "reference": "wp-frontend-uploader@236008"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wp-google-analytics": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wp-google-analytics",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wp-google-analytics@398704"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wp-google-analytics/xwp-vip-wpcom-plugins-wp-google-analytics-dev-master-766f60.zip",
+                    "reference": "wp-google-analytics@398704"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wp-large-options": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wp-large-options",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wp-large-options@83662"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wp-large-options/xwp-vip-wpcom-plugins-wp-large-options-dev-master-a5be45.zip",
+                    "reference": "wp-large-options@83662"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wpcom-elasticsearch-1.2": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wpcom-elasticsearch-1.2",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wpcom-elasticsearch-1.2@369896"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wpcom-elasticsearch-1-2/xwp-vip-wpcom-plugins-wpcom-elasticsearch-1-2-dev-master-e742a2.zip",
+                    "reference": "wpcom-elasticsearch-1.2@369896"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wpcom-elasticsearch": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wpcom-elasticsearch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wpcom-elasticsearch@369617"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wpcom-elasticsearch/xwp-vip-wpcom-plugins-wpcom-elasticsearch-dev-master-d239ae.zip",
+                    "reference": "wpcom-elasticsearch@369617"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        },
+        "xwp-vip-wpcom-plugins/wpcom-legacy-redirector": {
+            "dev-master": {
+                "name": "xwp-vip-wpcom-plugins/wpcom-legacy-redirector",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "svn",
+                    "url": "https://vip-svn.wordpress.com/plugins",
+                    "reference": "wpcom-legacy-redirector@391156"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://xwp.github.io/vip-wpcom-plugins/dist/xwp-vip-wpcom-plugins/wpcom-legacy-redirector/xwp-vip-wpcom-plugins-wpcom-legacy-redirector-dev-master-51e607.zip",
+                    "reference": "wpcom-legacy-redirector@391156"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source"
+            }
+        }
+    }
+}
