@@ -16,6 +16,7 @@ deploy:
   local_dir: public
   skip_cleanup: true
   token: $GITHUB_TOKEN
+  keep_history: true
   on:
     branch: master
 
