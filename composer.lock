@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "054e3fe7009e82d3ce790a2957997f2b",
+    "content-hash": "e02703c8b91391bcae180492f9c15605",
     "packages": [
         {
             "name": "automattic/vip-wpcom-plugins",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "svn",
                 "url": "https://vip-svn.wordpress.com",
-                "reference": "plugins@r398189"
+                "reference": "plugins@r398704"
             },
             "type": "library"
         },
@@ -1387,5 +1387,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }

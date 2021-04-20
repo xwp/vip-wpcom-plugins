@@ -14,7 +14,7 @@
                 "source": {
                     "url": "https://vip-svn.wordpress.com",
                     "type": "svn",
-                    "reference": "plugins@r398189"
+                    "reference": "plugins@r398704"
                 }
             }
         }
